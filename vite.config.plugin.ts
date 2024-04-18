@@ -28,8 +28,9 @@ export default defineConfig(({ mode }) => ({
   },
   resolve: {
     alias: {
-      "@common": path.resolve("src/common"),
+      "@rpc": path.resolve("src/rpc"),
       "@plugin": path.resolve("src/plugin"),
+      "@ui": path.resolve("src/ui"),
     },
   },
 }));

@@ -14,7 +14,7 @@
     "jsx": "react-jsx",
     "typeRoots": ["./node_modules/@figma"],
     "paths": {
-      "@common/*": ["./src/common/*"],
+      "@rpc/*": ["./src/rpc/*"],
       "@ui/*": ["./src/ui/*"],
       "@plugin/*": ["./src/plugin/*"]
     }
